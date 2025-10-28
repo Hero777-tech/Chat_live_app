@@ -5,6 +5,6 @@ import axios from "axios";
 export const axiosInstance = axios.create({
   baseURL: import.meta.env.MODE === "development" 
     ? "http://localhost:3000/api" 
-    : "https://hero-chat-app-ien8.onrender.com/api", // 👈 CHANGED
+    : "https://chat-live-app.onrender.com/api", // 👈 CHANGED
   withCredentials: true,
 });
